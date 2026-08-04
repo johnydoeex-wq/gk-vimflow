@@ -1,139 +1,74 @@
-# GK VIMFlow
+# GK VIM Smart Login
 
-🚀 AI-powered Chrome Extension for automating invoice submissions on the IOCL Vendor Invoice Management (VIM) portal.
+Chrome Extension for the Indian Oil Corporation Limited Vendor Invoice Management (VIM) Portal.
 
-GK VIMFlow extracts invoice information from PDF files using OCR and AI, then automatically fills the Add Bill form to save time and reduce manual data entry.
+## Features
 
-> **Disclaimer:** GK VIMFlow is an independent productivity tool and is **not affiliated with, endorsed by, sponsored by, or officially associated with Indian Oil Corporation Limited (IOCL)** or the Vendor Invoice Management (VIM) portal.
+- Multiple Saved Accounts
+- One-Click Login
+- CAPTCHA OCR
+- Local Processing
+- Chrome Side Panel
+- Manifest V3
 
----
+## Installation
 
-## ✨ Features
+1. Download the repository.
 
-- 📄 Upload PDF invoices
-- 🤖 AI-powered invoice data extraction
-- 🔍 OCR support for scanned and digital PDFs
-- ⚡ One-click autofill for VIM forms
-- 📝 Editable extracted data before submission
-- 📦 Smart field mapping
-- 💾 Local settings storage
-- 🔒 Privacy-focused workflow
+2. Open Chrome.
 
----
+3. Visit
 
-## 📋 Extracted Fields
+chrome://extensions
 
-GK VIMFlow can extract information such as:
+4. Enable Developer Mode.
 
-- Invoice Number
-- Invoice Date
-- Invoice Amount
-- Purchase Order (PO) Number
-- Vendor Name
-- GST Number
-- Plant Code
-- Location Code
-- Tax Details
-- Currency
-- Invoice Reference
+5. Click Load Unpacked.
 
----
+6. Select the extension folder.
 
-## 🚀 How to Use
+## Permissions
 
-1. Open the IOCL Vendor Invoice Management (VIM) portal.
-2. Navigate to the **Add Bill** page.
-3. Click the **GK VIMFlow** extension icon.
-4. Upload your invoice PDF.
-5. Review the extracted information.
-6. Click **Auto Fill**.
-7. Verify the populated fields and submit the invoice.
+Storage
 
----
+Stores account profiles and extension settings locally.
 
-## 🔒 Privacy
+Tabs
 
-- Only user-selected invoice PDFs are processed.
-- No browsing history is collected.
-- No passwords are collected.
-- No personal browsing activity is tracked.
-- Users remain responsible for verifying extracted information before submission.
+Detects supported VIM Portal pages.
 
-For more information, please see the **Privacy Policy**.
+Scripting
 
----
+Fills login fields after user interaction.
 
-## 🛠 Technologies
+Side Panel
 
-- Chrome Extension (Manifest V3)
-- JavaScript
-- HTML
-- CSS
-- OCR
-- AI-based Invoice Extraction
+Displays the extension interface.
 
----
+Active Tab
 
-## 📂 Project Structure
+Operates only on the current supported webpage.
 
-```
-gk-vimflow/
-│
-├── manifest.json
-├── background.js
-├── content.js
-├── popup.html
-├── popup.js
-├── sidepanel.html
-├── sidepanel.js
-├── styles/
-├── icons/
-├── assets/
-├── privacy-policy.html
-├── support.html
-└── README.md
-```
+## Security
 
----
+Passwords remain on the user's device.
 
-## 📦 Installation
+CAPTCHA OCR is processed locally.
 
-### From Chrome Web Store
+The extension does not upload credentials to the developer.
 
-Install directly from the Chrome Web Store (link will be available after publication).
+## Administrator
 
-### Manual Installation
+Gaurav Kumar
 
-1. Download or clone this repository.
-2. Open **chrome://extensions/**
-3. Enable **Developer Mode**.
-4. Click **Load unpacked**.
-5. Select the project folder.
+Email
 
----
+gk6209120331@gmail.com
 
-## 🤝 Contributing
+Mobile
 
-Pull requests and suggestions are welcome.
++91 62091 20330
 
-Please open an issue before making significant changes.
+## License
 
----
-
-## 📄 License
-
-This project is released under the MIT License.
-
----
-
-## 📧 Support
-
-For questions, bug reports, or feature requests, please visit the Support page or open a GitHub Issue.
-
----
-
-## ⚠️ Disclaimer
-
-GK VIMFlow is developed as an independent productivity tool for users of the IOCL Vendor Invoice Management portal.
-
-This project is **not affiliated with, endorsed by, sponsored by, or officially associated with Indian Oil Corporation Limited (IOCL)** or any of its subsidiaries or services. All trademarks belong to their respective owners.
+MIT
